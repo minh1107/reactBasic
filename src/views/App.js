@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import {N1Component, PrintHelloFriend} from './Example/N1Component';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        <N1Component />
+        <PrintHelloFriend />
       </header>
     </div>
   );
